@@ -6,10 +6,10 @@
 const linearSearch = (arr, num) => {
   for(let val = 0; val< arr.length; val++) {
     if (arr[val] === num) {
-      return val;
+      return `Item: ${num} is located in array at index: ${val}`;
     }
   }
-   return -1;
+   return `Item: ${num} is not located within the array thus has index: -1`;
 }
 
 module.exports = linearSearch;
