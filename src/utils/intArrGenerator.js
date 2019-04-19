@@ -4,6 +4,7 @@ const randomGenerator = require('./randomNumGenerator');
 const PERFECT_NUM = 7; // just to make it much more random
 
 /**
+ * @author Oluwafemi Akinwa
  * @desc generates an array of integer
  * @param {int} arrLength length of the array;
  */

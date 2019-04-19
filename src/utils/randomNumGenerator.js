@@ -1,4 +1,5 @@
 /**
+ * @author Oluwafemi Akinwa
  * @desc generates ramdon number
  * @param {int} inputSeed input integer to generate random number
  */

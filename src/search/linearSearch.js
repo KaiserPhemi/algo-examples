@@ -1,4 +1,5 @@
 /**
+ * @author Oluwafemi Akinwa
  * @desc uses linear search to search through an array
  * @param {array} arr array of integers 
  * @param {int} num search element
