@@ -12,15 +12,9 @@ const arrGenerator = require("./src/utils/intArrGenerator");
 const compareInput = require("./src/utils/compareInput");
 
 // generates a random array of integers
-const myArr = arrGenerator(20);
+const myArr = arrGenerator();
 
-// const myRes = binarySearch(myArr, 25)
-console.log("");
-console.log("Unsorted array", myArr);
-console.log("");
-console.log(insertionSort(myArr))
-// const myRes = selectionSort(myArr);
-// const myRes = mergeSort(myArr);
-// console.log(`Sorted array using merge sort: [${myRes}]`);
-console.log("");
-// console.log(linearSearch(myArr, 20));
+// Basically using any of the methods involves
+// 1. Generating an array using the arrGenerator() method & passing an array length as an argument
+// 2. Calling any of the imported modules & passing the generated array as argument
+// 3. the computeInput function is used as an argument to the native javascript method for more accurate sorting.
