@@ -18,8 +18,9 @@ const myArr = arrGenerator(20);
 console.log("");
 console.log("Unsorted array", myArr);
 console.log("");
+console.log(insertionSort(myArr))
 // const myRes = selectionSort(myArr);
-const myRes = mergeSort(myArr);
-console.log(`Sorted array using merge sort: [${myRes}]`);
+// const myRes = mergeSort(myArr);
+// console.log(`Sorted array using merge sort: [${myRes}]`);
 console.log("");
 // console.log(linearSearch(myArr, 20));
